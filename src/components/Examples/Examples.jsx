@@ -37,7 +37,6 @@ export default function Examples(){
               </code>
             </pre>
           </div>): null}
-
         </Section>
     )
 } 
