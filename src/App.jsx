@@ -1,18 +1,19 @@
+
+import {Fragment } from 'react';
+
+import CoreConcepts from './components/CoreConcepts/CoreConcepts.jsx';
+import Header from './components/Header/Header.jsx';
+import Examples from './components/Examples/Examples.jsx';
+
 function App() {
   return (
-    <div>
-      <header>
-        <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
-        <h1>React Essentials</h1>
-        <p>
-          Fundamental React concepts you will need for almost any app you are
-          going to build!
-        </p>
-      </header>
+    <Fragment>
+      <Header/>
       <main>
-        <h2>Time to get started!</h2>
+        <CoreConcepts/>
+        <Examples/>
       </main>
-    </div>
+    </Fragment>
   );
 }
 
